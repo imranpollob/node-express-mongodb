@@ -20,10 +20,8 @@ db.on('error', function(err){
 // init app
 const app = express();
 
-
 // bring db models
 let Article = require('./models/articles');
-
 
 // load view engine
 app.set('views', path.join(__dirname, 'views'));
