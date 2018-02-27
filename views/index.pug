@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1 Home
+
+    ul
+        each article, index in articles
+            li= article.title
